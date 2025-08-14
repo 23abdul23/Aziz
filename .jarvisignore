@@ -1,0 +1,6 @@
+# Add patterns to ignore files, similar to .gitignore
+**/.git/**
+**/node_modules/**
+**/*.lock
+**/*.exe
+**/*.db

@@ -1,0 +1,18 @@
+# Configuration file for Jarvis
+roots:
+  - "C:\\Users\\Azeem\\Desktop\\Aziz\\test_data"
+ignore:
+  - "**/.git/**"
+  - "**/node_modules/**"
+  - "**/*.lock"
+  - "**/*.exe"
+  - "**/*.db"
+max_file_mb: 30
+chunk:
+  tokens: 900
+  overlap: 120
+vector_db:
+  kind: "chroma"
+  path: "./chroma_store"
+embeddings:
+  model: "sentence-transformers/all-MiniLM-L6-v2"
